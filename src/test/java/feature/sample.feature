@@ -6,8 +6,8 @@ Feature: Title of your feature
     Then Search "Shirt" in the "Search_Box" in the "HomePage"
     Then User clicks on "Submit_Searchbox" in "HomePage"
     Then User validates the "Breadcrumb" contains "Home>Search" in "HomePage"
-    #Then User clicks on item number 8 of "Item_Name_Link" in "HomePage"
-    #Then Verify the name in the search page and the details page are same
+    Then User clicks on item number 8 of "Item_Name_Link" in "HomePage"
+    Then Verify the name in the search page and the details page are same
     
     
     

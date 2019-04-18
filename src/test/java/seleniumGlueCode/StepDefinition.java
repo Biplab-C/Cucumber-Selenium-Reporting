@@ -62,12 +62,11 @@ public class StepDefinition extends page.CreateClassObject{
 	    			objectText=objectText+">"+objectToValidate.get(i).getText();
 	    		}
 	    	}
-	    	
-	    	objectText=objectText+"jabfajbjgbajga";
+	    
 	    	
 	    	softly.assertThat(objectText).as("Breadcrumb").isEqualTo(textToVerify);
 	    	softly.assertAll();
-//	    	assertFalse("Expected :- "+textToVerify+", Actual:-"+objectText, (!textToVerify.contains(objectText)));
+
 	    }
 	}
 

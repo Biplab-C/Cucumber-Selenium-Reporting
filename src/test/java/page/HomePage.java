@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 public class HomePage {
 	
 	
-	public By Search_Box= By.xpath("//input[@id='searchText']");
+	public By Search_Bo= By.xpath("//input[@id='searchText']");
 	public By Submit_Searchbox= By.xpath("//button[@id='searchsubmit']");
 	public By Breadcrumb = By.xpath("//div[@class='breadcrumb clearfix']/a");
 	public By Item_Name = By.xpath("//span[@class='responsivegriditem__title']");

@@ -23,8 +23,6 @@ public class StepDefinition extends page.CreateClassObject{
 	@Given("^Navigate to \"([^\"]*)\"$")
 	public void navigate_to(String URL) throws Throwable {
 		driver.get(URL);
-		Thread.sleep(10000);
-		
 	}
 
 	@Given("^Refresh the page$")
